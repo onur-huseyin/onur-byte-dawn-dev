@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line::before {
+    @apply absolute content-[''] left-[0] bottom-[0] w-[156px] h-[1px] bg-white lg:bg-slate-950 transition-all duration-1000 ;
+  }
+.linear-bg::before{
+  @apply absolute  top-0 left-0 content-[''] z-[-1] w-full h-full bg-gradient-to-t;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #00000070 78.65%);
+  
+}
+.main-area{
+  overflow-x: hidden !important;
+}

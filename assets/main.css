@@ -1,0 +1,6 @@
+body{
+  font-family: var(--bodyFont);
+  font-weight: var(--bodyFontWeight);
+  font-style: normal;
+  overflow: hidden;
+}
